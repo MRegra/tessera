@@ -1,0 +1,12 @@
+# build output
+target/
+*.class
+# local reference material (NOT published: original IST CMU "P2Photo" project + course material)
+reference/
+# IDEs / OS
+.idea/
+*.iml
+.vscode/
+.DS_Store
+# logs
+*.log

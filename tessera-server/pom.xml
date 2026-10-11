@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>dev.sobatista.tessera</groupId><artifactId>tessera-parent</artifactId><version>0.1.0</version>
+  </parent>
+  <artifactId>tessera-server</artifactId>
+  <name>Tessera Server</name>
+  <description>The directory service: accounts, sessions, album membership, wrapped keys and catalog pointers over a small JSON/HTTP API — and the matching HTTP client. It never sees a photo, a catalog or an album key.</description>
+  <dependencies>
+    <dependency><groupId>dev.sobatista.tessera</groupId><artifactId>tessera-core</artifactId></dependency>
+    <dependency><groupId>com.fasterxml.jackson.core</groupId><artifactId>jackson-databind</artifactId></dependency>
+  </dependencies>
+</project>
